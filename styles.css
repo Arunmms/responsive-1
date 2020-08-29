@@ -1,0 +1,120 @@
+.img-fluid{
+  max-width: 100%
+  height:auto;
+}
+
+
+.top{
+  background-color: #333;
+
+}
+.white{
+  color: white;
+  padding: 3px 20px;
+}
+/* mytune */
+#mytune{
+  background-image: url(image1.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.mytune-content{
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+}
+.mytune-content h1{
+  font-size: 65px;
+  padding: 30px ;
+}
+.mytune-content p{
+  font-size: 20px;
+  padding: 30px 30px;
+}
+
+/* music */
+#music{
+  background-color: #252529;
+
+}
+.music-con{
+  color: white;
+  text-align:center;
+}
+.music-con h1{
+  padding-top: 60px;
+
+}
+.music-con p{
+  padding: 20px;
+}
+.mus-but{
+  height: 60px;
+  border-radius: 0;
+  background-color: red;
+}
+.music-con img{
+
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+/* video */
+.video-con{
+  text-align: center;
+  background-color: 	#DCDCDC;
+}
+.video-con h2,h5{
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.vid-but{
+  height: 60px;
+  border-radius: 0;
+  background-color: blue;
+}
+/* middle */
+.middle{
+  background-image: url(download.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  text-align: center;
+  color: white;
+}
+.middle h1{
+  padding-top: 200px;
+}
+/* gift cards*/
+
+.gift{
+  padding: 70px;
+}
+.words{
+  padding: 50px 45px 40px 40px ;
+}
+/* shops */
+.shops{
+  padding: 50px 60px;
+  background-color: black;
+  color: white;
+}
+.shops hr{
+  border-color: white;
+}
+/* footer */
+.footer{
+  background-color: 	#696969;
+  text-align: center;
+  color: white;
+  padding: 20px 30px;
+}
+@media (max-width:750px) {
+  .shops{
+      display: none;
+  }
+}
